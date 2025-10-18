@@ -27,23 +27,21 @@ Publish the website in the LocalHost.
 
 ## PROGRAM :
 ```
-sumai.html
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>chocolate shop</title>
+  <title>Dribble</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
     body {
-      background-color: #a6c6e6;
+      background-color: #d9dee3;
     }
 
 
     .navbar {
-      background-color: rgb(238, 171, 234);
+      background-color: rgb(156, 199, 215);
       flex-direction: column;
       align-items: flex-start;
       padding-left: 40px;
@@ -52,7 +50,7 @@ sumai.html
     }
 
     .navbar-brand {
-      color: rgb(103, 80, 80);
+      color: rgb(11, 8, 8);
       font-weight: bold;
       font-size: 24px;
     }
@@ -85,7 +83,7 @@ sumai.html
     .controls a {
       margin: 0 20px;
       font-size: 18px;
-      color: #e88bc0;
+      color: #181115;
       text-decoration: none;
       position: relative;
       transition: all 0.3s ease;
@@ -149,24 +147,28 @@ sumai.html
   
   <nav class="navbar">
     <div>
-      <a class="navbar-brand" href="#">chocolate</a>
+      <a class="navbar-brand" href="#">Dribble</a>
       <div class="sub-links">
-        <a href="#">Home</a>
-        <a href="#">Order</a>
-        <a href="#">Account</a>
+        <a href="#">Teams</a>
+        <a href="#">Designers</a>
+        <a href="#">community</a>
+        <a href="#">...</a>
       </div>
     </div>
   </nav>
   <div class="me-4">
    <ul class="nav navbar-nav navbar-right"></ul>
+        <li>Sign up  &nbsp;
+         Sign in
+             </li>
+
         </div>
 </nav>
 
   <nav class="nav navbar-default bg-danger text-white">
     <ul class="nav navbar-nav mx-auto py-3">
-        <p class="text-center">All you need is love and <span class="text-light">a little chocolate</span></p>
+        <p class="text-center">What are you working on? <span class="text-light">Dribble desing is intelligence made visible</span></p>
        <li> <button type="button" class="btn btn-primary text-white">Learn More</button>
-        <button type="button" class="btn btn-danger">New flavor</button>
          <button type="button" class="btn btn-danger">Sign up</button></li>
         
     </ul>
@@ -175,9 +177,9 @@ sumai.html
 
   
   <div class="controls">
-    <a href="#">Dark chocolate</a>
-    <a href="#">Hazelnut chocolate</a>
-    <a href="#">Caramel chocolate</a>
+    <a href="#">Popular</a>
+    <a href="#">Shots</a>
+    <a href="#">Now</a>
   </div>
 
   
@@ -186,9 +188,9 @@ sumai.html
       <!-- Repeat your image cards -->
       <div class="col-lg-2 col-md-4 col-sm-6">
         <div class="card">
-          <img src="cinnamon chocolate.jpg" class="card-img-top" alt="">
+          <img src="Creative.png" class="card-img-top" alt="">
           <div class="card-body">
-            <h6 class="card-title">Cinnamon chocolate</h6>
+            <h6 class="card-title">Creative</h6>
             
           </div>
         </div>
@@ -196,9 +198,9 @@ sumai.html
 
       <div class="col-lg-2 col-md-4 col-sm-6">
         <div class="card">
-          <img src="milk chocolate.webp" class="card-img-top" alt="">
+          <img src="Discover stories.webp" class="card-img-top" alt="">
           <div class="card-body">
-            <h6 class="card-title">Milk chocolate</h6>
+            <h6 class="card-title">Discover stories</h6>
             
           </div>
         </div> 
@@ -206,9 +208,9 @@ sumai.html
 
       <div class="col-lg-2 col-md-4 col-sm-6">
         <div class="card">
-          <img src="mocho chocolate.jpeg" class="card-img-top" alt="">
+          <img src="Futtter.jpg" class="card-img-top" alt="">
           <div class="card-body">
-            <h6 class="card-title">Mocho chocolate</h6>
+            <h6 class="card-title">Futtter</h6>
             
           </div>
         </div>
@@ -216,9 +218,9 @@ sumai.html
 
       <div class="col-lg-2 col-md-4 col-sm-6">
         <div class="card">
-          <img src="nut chocolate.jpeg" class="card-img-top" alt="">
+          <img src="Growing style.webp" class="card-img-top" alt="">
           <div class="card-body">
-            <h6 class="card-title">Nut chocolate</h6>
+            <h6 class="card-title">Growing style</h6>
             
           </div>
         </div>
@@ -226,9 +228,9 @@ sumai.html
 
       <div class="col-lg-2 col-md-4 col-sm-6">
         <div class="card">
-          <img src="pistachio chocolate.jpeg" class="card-img-top" alt="">
+          <img src="Learns.gif" class="card-img-top" alt="">
           <div class="card-body">
-            <h6 class="card-title">Pistachio chocolate</h6>
+            <h6 class="card-title">Learns</h6>
            
           </div>
         </div>
@@ -236,15 +238,14 @@ sumai.html
 
       <div class="col-lg-2 col-md-4 col-sm-6">
         <div class="card">
-          <img src="strawberrie chocolate.webp" class="card-img-top" alt="">
+          <img src="New Lunacy.jpg" class="card-img-top" alt="">
           <div class="card-body">
-            <h6 class="card-title">strawberrie chocolate</h6>
-            
+            <h6 class="card-title">New Lunacy</h6>
+        
           </div>
         </div>
       </div>
-    </div>
-  </div>
+        
 
   <footer>
     <p>© Designed by S.SUMAIYA(25016731)</p>
@@ -253,6 +254,7 @@ sumai.html
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
 
 ```
 
